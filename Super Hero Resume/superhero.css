@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+font-weight: bold;
+}
+
+body{
+    /* background-color: #0E2C49; */
+    background-color: #121A25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    cursor: url('https://www.pngfind.com/pngs/m/22-220654_spider-spider-on-spider-mans-chest-hd-png.png'), auto;
+
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    margin-right: 16%;
+}
+.container .left-side{
+    position: relative;
+     /* background-color: rgb(158, 8, 8);  */
+    /* background-color:#080B12; */
+    padding: 40px;
+    background-image: linear-gradient(180deg, rgb(255, 0, 0), yellow, #6C0092,#2E00D0);
+}
+
+#name1{
+    /* font-family: 'THE AMAZING SPIDER-MAN'; */
+    src: url('https://www.fontsaddict.com/fontface/the-amazing-spider-man.ttf');
+
+}
+
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom:1px solid rgba(255, 255,255,0.2) ;
+}
+.profiletext .imgbox{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+}
+.profiletext .imgbox img{
+ position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+animation: logo 2s ease-in-out infinite alternate; 
+}
+
+@keyframes logo {
+    from{
+        transform: scale(1.01);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+.profiletext h2{
+    color: #151010;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.contact{
+padding-top: 40px;
+
+}
+
+.contact >div> img{
+  height: 17px;
+width: 16px;
+}
+
+
+.title{
+    color: #3405f2;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.contact ul{
+    position: relative;
+}
+
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(4, 5, 0);
+}
+.contact ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.education li{
+    margin-bottom: 15px;
+}
+.education h5{
+    color: rgb(112, 244, 4);
+    font-weight: 500;
+}
+.education h4{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+.education h4:nth-child(2){
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+ .language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #fff;
+    display: block;
+    margin-top: 5px;
+}
+.percent div{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+background-color: #0f0101;
+}
+
+.language{
+    color: #e4e0e2;
+    /* padding-top: 20px; */
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    line-height: 28px;
+
+}
+
+ .about{
+    margin-bottom: 50px;
+ }
+
+ .about:last-child{
+    margin-bottom: 0;
+ }
+.title2{
+    color: blue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+p{
+    color:rgb(31, 2, 9)
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.year_company{
+min-width: 150px; 
+
+}
+
+.year_company h5{
+    text-transform: uppercase;
+    color: #ff00cc;
+    font-weight: 600;
+    
+}
+
+.textt h4{
+    text-transform: uppercase;
+    color: brown;
+    font-size: 16px;
+}
+
+ .aboutskills{
+    position: relative;
+    width: 100%;
+    display: grid;
+      grid-template-columns: 150px 1fr;
+      align-items: center;
+}
+
+.box h4{
+    text-transform: uppercase;
+    color: #ED0A3F;
+    font-weight: 500;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* .aboutskills .box*/ .percent{ 
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+
+}
+.percent div{
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #171111; 
+ /* margin-left: 30px;  */
+}
+
+/* ********************************************************************************************************************** */
+
+img{
+    max-width:100%;
+  }
+  
+  h1 {
+    font-size: 52px;
+    text-align: center;
+    color: #ffcc66;
+    text-shadow: 1px 1px 0 red;
+    margin: 0px;
+  }
+  
+  .hanger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hanger .hangman {
+    width: 300px;
+    vertical-align: top;
+    margin-top: -60px;
+    animation-name: animar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  .boom {
+    width: 200px;
+    height: 20px;
+    margin: 20px 0;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    animation: sombra 2s alternate infinite;
+  }
+  
+  @keyframes animar {
+    from {
+      transform: translateY(-100px);
+    }
+  
+    to {
+      transform: translateY(0px);
+    }
+  }
+  
+  @keyframes sombra {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(0.6);
+      opacity: 0.2;
+    }
+  }
+
+
+/* ************************************************************************************************************************ */
+
+.container .right-side{
+    position: relative;
+    /* background-color: rgb(67, 33, 33); */
+    background: linear-gradient(to right, #4E1409, #FEC695, #4236c9);
+    padding: 40px;
+    /* background-image: url("https://i.pinimg.com/736x/0e/54/71/0e5471ca3a6a148bf2dfd423f2c2b239.jpg"); */
+    /* background-image: url("https://i.pinimg.com/474x/bf/d0/54/bfd054d9a743ec5e7cc7b0609800a37c.jpg"); */
+    /* background-image: url("https://im3.ezgif.com/tmp/ezgif-3-77abdbb3eb.jpg"); */
+    /* background-size: contain; */
+
+
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.interest ul li{
+    list-style: none;
+    color: #341f03;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.interest ul li .fa{
+    color: chocolate;
+    font-size: 18px;
+    width: 20px;
+}
+.box{
+    
+}
+
+
+/* ---------------------------------- */
+
+
+.wrapper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  /*   background-color: #141416; */
+     /* background: linear-gradient(15deg, #faf8f8 50%, #000000 50%); */
+  }
+  
+  .card {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    /* background: linear-gradient(15deg, #FF0000 50%, #000000 50%); */
+    courser:pointer;
+  }
+  
+  .card img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    transition: 0.5s;
+  }
+  
+  .card:hover img {
+    left: 80%;
+    height: 470px;
+  }
+  
+  .card .content {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  
+  .card:hover .content {
+    left: 0%;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .card .content h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.0em;
+    line-height: 1.3em;
+  }
+  
+  .card .content p {
+    color: #fff;
+  }
+  
+  .card .content a {
+    position: relative;
+    display: inline-block;
+    color: #111;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+/* --------------------------------------------------------------------------------- */
+@media(max-width:1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interest ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .about .box{
+        flex-direction: column;
+    }
+    .about .box .year_company{
+        margin-bottom: 5px;
+    }
+    .interest ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .aboutskills.box{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
